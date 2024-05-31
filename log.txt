@@ -1,0 +1,301 @@
+offset: 7965188096 length: 4096
+ offset: 7965188096 len: 4096 read: 1
+res: -22
+offset: 8185028608 length: 4096
+ offset: 8185028608 len: 4096 read: 1
+res: -22
+offset: 1440829440 length: 4096
+ offset: 1440829440 len: 4096 read: 1
+res: -22
+offset: 1744830464 length: 4096
+ offset: 1744830464 len: 4096 read: 0
+res: -22
+offset: 7965319168 length: 4096
+ offset: 7965319168 len: 4096 read: 1
+res: -22
+offset: 4740694016 length: 4096
+ offset: 4740694016 len: 4096 read: 1
+res: -22
+offset: 8185159680 length: 4096
+ offset: 8185159680 len: 4096 read: 1
+res: -22
+offset: 7965450240 length: 4096
+ offset: 7965450240 len: 4096 read: 1
+res: -22
+offset: 1744961536 length: 4096
+ offset: 1744961536 len: 4096 read: 0
+res: -22
+offset: 2059235328 length: 4096
+ offset: 2059235328 len: 4096 read: 1
+res: -22
+offset: 3002568704 length: 4096
+ offset: 3002568704 len: 4096 read: 1
+res: -22
+offset: 7965581312 length: 4096
+ offset: 7965581312 len: 4096 read: 1
+res: -22
+offset: 1745092608 length: 4096
+ offset: 1745092608 len: 4096 read: 0
+res: -22
+offset: 2059366400 length: 4096
+ offset: 2059366400 len: 4096 read: 1
+res: -22
+offset: 3002699776 length: 4096
+ offset: 3002699776 len: 4096 read: 1
+res: -22
+offset: 1745223680 length: 4096
+ offset: 1745223680 len: 4096 read: 0
+res: -22
+offset: 1745354752 length: 4096
+ offset: 1745354752 len: 4096 read: 0
+res: -22
+offset: 2264039424 length: 4096
+ offset: 2264039424 len: 4096 read: 1
+res: -22
+offset: 4142129152 length: 4096
+ offset: 4142129152 len: 4096 read: 1
+res: -22
+offset: 380338176 length: 4096
+ offset: 380338176 len: 4096 read: 1
+res: -22
+offset: 1745485824 length: 4096
+ offset: 1745485824 len: 4096 read: 0
+res: -22
+offset: 1745616896 length: 4096
+ offset: 1745616896 len: 4096 read: 0
+res: -22
+offset: 1573691392 length: 4096
+ offset: 1573691392 len: 4096 read: 1
+res: -22
+offset: 1745747968 length: 4096
+ offset: 1745747968 len: 4096 read: 0
+res: -22
+offset: 845373440 length: 4096
+ offset: 845373440 len: 4096 read: 1
+res: -22
+offset: 7411163136 length: 4096
+ offset: 7411163136 len: 4096 read: 1
+res: -22
+offset: 845504512 length: 4096
+ offset: 845504512 len: 4096 read: 1
+res: -22
+offset: 4018466816 length: 4096
+ offset: 4018466816 len: 4096 read: 1
+res: -22
+offset: 7128846336 length: 4096
+ offset: 7128846336 len: 4096 read: 1
+res: -22
+offset: 7411294208 length: 4096
+ offset: 7411294208 len: 4096 read: 1
+res: -22
+offset: 2065416192 length: 4096
+ offset: 2065416192 len: 4096 read: 1
+res: -22
+offset: 10058113024 length: 4096
+ offset: 10058113024 len: 4096 read: 1
+res: -22
+offset: 7411425280 length: 4096
+ offset: 7411425280 len: 4096 read: 1
+res: -22
+offset: 1745842176 length: 4096
+ offset: 1745842176 len: 4096 read: 0
+res: -22
+offset: 5210112000 length: 4096
+ offset: 5210112000 len: 4096 read: 1
+res: -22
+offset: 767750144 length: 4096
+ offset: 767750144 len: 4096 read: 1
+res: -22
+offset: 7411556352 length: 4096
+ offset: 7411556352 len: 4096 read: 1
+res: -22
+offset: 1745973248 length: 4096
+ offset: 1745973248 len: 4096 read: 0
+res: -22
+offset: 10058244096 length: 4096
+ offset: 10058244096 len: 4096 read: 1
+res: -22
+offset: 1746104320 length: 4096
+ offset: 1746104320 len: 4096 read: 0
+res: -22
+offset: 10058375168 length: 4096
+ offset: 10058375168 len: 4096 read: 1
+res: -22
+offset: 1746235392 length: 4096
+ offset: 1746235392 len: 4096 read: 0
+res: -22
+offset: 972668928 length: 4096
+ offset: 972668928 len: 4096 read: 1
+res: -22
+offset: 7806242816 length: 4096
+ offset: 7806242816 len: 4096 read: 1
+res: -22
+offset: 1390964736 length: 4096
+ offset: 1390964736 len: 4096 read: 1
+res: -22
+offset: 5817528320 length: 4096
+ offset: 5817528320 len: 4096 read: 1
+res: -22
+offset: 8869076992 length: 4096
+ offset: 8869076992 len: 4096 read: 1
+res: -22
+offset: 10058506240 length: 4096
+ offset: 10058506240 len: 4096 read: 1
+res: -22
+offset: 1120227328 length: 4096
+ offset: 1120227328 len: 4096 read: 1
+res: -22
+offset: 1391095808 length: 4096
+ offset: 1391095808 len: 4096 read: 1
+res: -22
+offset: 1744416768 length: 4096
+ offset: 1744416768 len: 4096 read: 0
+res: -22
+offset: 8290439168 length: 4096
+ offset: 8290439168 len: 4096 read: 1
+res: -22
+offset: 8869208064 length: 4096
+ offset: 8869208064 len: 4096 read: 1
+res: -22
+offset: 1197740032 length: 4096
+ offset: 1197740032 len: 4096 read: 1
+res: -22
+offset: 8869339136 length: 4096
+ offset: 8869339136 len: 4096 read: 1
+res: -22
+offset: 10058637312 length: 4096
+ offset: 10058637312 len: 4096 read: 1
+res: -22
+offset: 1744547840 length: 4096
+ offset: 1744547840 len: 4096 read: 0
+res: -22
+offset: 4591792128 length: 4096
+ offset: 4591792128 len: 4096 read: 1
+res: -22
+offset: 4361674752 length: 4096
+ offset: 4361674752 len: 4096 read: 1
+res: -22
+offset: 8869470208 length: 4096
+ offset: 8869470208 len: 4096 read: 1
+res: -22
+offset: 7745011712 length: 4096
+ offset: 7745011712 len: 4096 read: 1
+res: -22
+offset: 1197871104 length: 4096
+ offset: 1197871104 len: 4096 read: 1
+res: -22
+offset: 8869601280 length: 4096
+ offset: 8869601280 len: 4096 read: 1
+res: -22
+offset: 1198002176 length: 4096
+ offset: 1198002176 len: 4096 read: 1
+res: -22
+offset: 10466721792 length: 4096
+ offset: 10466721792 len: 4096 read: 1
+res: -22
+offset: 8869732352 length: 4096
+ offset: 8869732352 len: 4096 read: 1
+res: -22
+offset: 1619595264 length: 4096
+ offset: 1619595264 len: 4096 read: 1
+res: -22
+offset: 939089920 length: 4096
+ offset: 939089920 len: 4096 read: 1
+res: -22
+offset: 8869863424 length: 4096
+ offset: 8869863424 len: 4096 read: 1
+res: -22
+offset: 1198133248 length: 4096
+ offset: 1198133248 len: 4096 read: 1
+res: -22
+offset: 10058768384 length: 4096
+ offset: 10058768384 len: 4096 read: 1
+res: -22
+offset: 10466852864 length: 4096
+ offset: 10466852864 len: 4096 read: 1
+res: -22
+offset: 1746337792 length: 4096
+ offset: 1746337792 len: 4096 read: 0
+res: -22
+offset: 8869994496 length: 4096
+ offset: 8869994496 len: 4096 read: 1
+res: -22
+offset: 1198264320 length: 4096
+ offset: 1198264320 len: 4096 read: 1
+res: -22
+offset: 10466983936 length: 4096
+ offset: 10466983936 len: 4096 read: 1
+res: -22
+offset: 1746468864 length: 4096
+ offset: 1746468864 len: 4096 read: 0
+res: -22
+offset: 10058899456 length: 4096
+ offset: 10058899456 len: 4096 read: 1
+res: -22
+offset: 10059030528 length: 4096
+ offset: 10059030528 len: 4096 read: 1
+res: -22
+offset: 1746599936 length: 4096
+ offset: 1746599936 len: 4096 read: 0
+res: -22
+offset: 10059161600 length: 4096
+ offset: 10059161600 len: 4096 read: 1
+res: -22
+offset: 1746731008 length: 4096
+ offset: 1746731008 len: 4096 read: 0
+res: -22
+offset: 1746862080 length: 4096
+ offset: 1746862080 len: 4096 read: 0
+res: -22
+offset: 10059292672 length: 4096
+ offset: 10059292672 len: 4096 read: 1
+res: -22
+offset: 1746993152 length: 4096
+ offset: 1746993152 len: 4096 read: 0
+res: -22
+offset: 10059423744 length: 4096
+ offset: 10059423744 len: 4096 read: 1
+res: -22
+offset: 10059554816 length: 4096
+ offset: 10059554816 len: 4096 read: 1
+res: -22
+offset: 1747124224 length: 4096
+ offset: 1747124224 len: 4096 read: 0
+res: -22
+offset: 10059685888 length: 4096
+ offset: 10059685888 len: 4096 read: 1
+res: -22
+offset: 1747255296 length: 4096
+ offset: 1747255296 len: 4096 read: 0
+res: -22
+offset: 10059816960 length: 4096
+ offset: 10059816960 len: 4096 read: 1
+res: -22
+offset: 1747386368 length: 4096
+ offset: 1747386368 len: 4096 read: 0
+res: -22
+offset: 2981502976 length: 4096
+ offset: 2981502976 len: 4096 read: 1
+res: -22
+offset: 10059948032 length: 4096
+ offset: 10059948032 len: 4096 read: 1
+res: -22
+offset: 10060079104 length: 4096
+ offset: 10060079104 len: 4096 read: 1
+res: -22
+offset: 1747427328 length: 4096
+ offset: 1747427328 len: 4096 read: 0
+res: -22
+offset: 1747558400 length: 4096
+ offset: 1747558400 len: 4096 read: 0
+res: -22
+offset: 10060410880 length: 4096
+ offset: 10060410880 len: 4096 read: 1
+res: -22
+offset: 1747689472 length: 4096
+ offset: 1747689472 len: 4096 read: 0
+res: -22
+offset: 3852611584 length: 4096
+ offset: 3852611584 len: 4096 read: 1
+res: -22
+/home/femu/IouringDemo
