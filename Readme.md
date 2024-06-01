@@ -6,7 +6,7 @@
 github_link :  https://github.com/axboe/liburing
 
 ```txt
-    cd include/liburing
+    cd liburing/
     ./configure
     make
     make install
