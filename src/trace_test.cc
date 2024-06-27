@@ -37,7 +37,9 @@ int main(int argc, char *argv[])
 	//fd = open(argv[1], O_RDONLY | O_DIRECT); 
 	//fd = open("/home/femu/do.sh", O_RDWR | 040000); 
 	fd = open("/dev/nvme0n1", O_RDWR | O_DIRECT);
-	//printf("%d\n",fd);
+	printf("%d\n",fd);
+
+
 	if (fd < 0) {
 		perror("open");
 		return 1;
@@ -47,6 +49,8 @@ int main(int argc, char *argv[])
 		perror("fstat");
 		return 1;
 	}
+
+	//return 0;
 
 	fsize = 0;
 	struct iovec *iovecs =(struct iovec*) calloc(QD, sizeof(struct iovec));
