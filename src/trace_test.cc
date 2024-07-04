@@ -8,8 +8,16 @@
 #include <unistd.h>
 #include "liburing.h"
 
-#define QD	1
+#define QD	32
 #define BUF_SIZE 4096 
+
+#define KB (1024LL)
+#define MB (1024 * 1024LL)
+#define GB (1024 * 1024 * 1024LL)
+
+#define MAX_IOSIZE (10 * MB)
+
+#define USER_SPACE_LEN (10 * GB)
 
 int main(int argc, char *argv[])
 {
@@ -62,7 +70,7 @@ int main(int argc, char *argv[])
 		iovecs[i].iov_len = 4096;
 		fsize += 4096;
 
-	offset = 0;
+	offset = 7965188096;
     //i = 0;
 	//do {
 		sqe = io_uring_get_sqe(&ring);
@@ -70,6 +78,7 @@ int main(int argc, char *argv[])
 		//	break;
 		io_uring_prep_readv(sqe, fd, &iovecs[0], 1, offset);
 		sqe->added_info=29;
+		// sqe->user_data = 29;
 		offset += iovecs[0].iov_len;
 	//	i++;
 		//if (offset >= sb.st_size)

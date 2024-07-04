@@ -30,6 +30,8 @@ struct io_request {
   bool read;
 };
 
+struct iovec *iovecs;
+
 template <class Container>
 void str_split(const string &str, Container &cont, const string &delims = " ") {
   size_t current, previous = 0;
@@ -50,7 +52,7 @@ void submit_io(struct io_uring *ring, struct io_request *req) {
                                                            // 即先占着坑，先把它申请下来，随后再直接往队列里填请求的具体信息
                                                            // 而不是先生成 sqe ，然后再写入 sq 中
   io_uring_prep_rw(req->read ? IORING_OP_READV : IORING_OP_WRITEV, sqe, req->fd,
-                   req->buf, req->len, req->offset);       // 填充 sqe （其实是直接往 sq 里写了，sqe 是个指针，指向了 sq 中的一项）
+                   &iovecs[0], 1, req->offset);       // 填充 sqe （其实是直接往 sq 里写了，sqe 是个指针，指向了 sq 中的一项）
 
   sqe->added_info = 29;           // 为请求 added_info 字段赋值
   
@@ -69,18 +71,22 @@ void wait_completion(struct io_uring *ring) {
 
 int main() {
   struct io_uring ring;
+
   io_uring_queue_init(RING_QD, &ring, RING_FLAG);     // RING_FLAG : IORING_SETUP_IOPOLL
                                                       // IORING_SETUP_IOPOLL 可以让内核采用 Polling 的模式收割 Block 层的请求
 
   // Open your file here
-  int fd = open("/dev/nvme0n1", O_RDWR | O_CREAT, 0644);
+  // int fd = open("/dev/nvme0n1", O_RDWR , 0644);
+  int fd = open("/dev/nvme0n1", O_RDWR | O_DIRECT);
   if (fd < 0) {
     perror("open");
     return 1;
   }
 
   // Allocate buffer for IO
-  char *buffer = new char[MAX_IOSIZE];
+  // char *buffer = new char[MAX_IOSIZE];
+  char* buffer;
+  posix_memalign((void **)&buffer, 512, MAX_IOSIZE);
   if (!buffer) {
     std::cerr << "Failed to allocate buffer" << std::endl;
     return 1;
@@ -105,6 +111,11 @@ int main() {
     offset = offset / (4 * KB) * (4 * KB);
 
     cout << "offset: " << offset << " length: " << length << endl;
+
+    iovecs =(struct iovec*) calloc(RING_QD, sizeof(struct iovec));
+
+    iovecs[0].iov_base = buffer;
+		iovecs[0].iov_len = length;
 
     if (lineSplit[0] == "R") {
       // Read operation
