@@ -77,7 +77,7 @@ int main(int argc, char *argv[])
 		//if (!sqe)
 		//	break;
 		io_uring_prep_readv(sqe, fd, &iovecs[0], 1, offset);
-		sqe->added_info=29;
+		// sqe->added_info=29;
 		// sqe->user_data = 29;
 		offset += iovecs[0].iov_len;
 	//	i++;

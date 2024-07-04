@@ -14,6 +14,8 @@ using namespace std;
 #define RING_QD (32)
 #define RING_FLAG (IORING_SETUP_IOPOLL)
 
+#define RING_FLAG_TEMP 0
+
 #define KB (1024LL)
 #define MB (1024 * 1024LL)
 #define GB (1024 * 1024 * 1024LL)
@@ -46,7 +48,7 @@ void str_split(const string &str, Container &cont, const string &delims = " ") {
 
 void submit_io(struct io_uring *ring, struct io_request *req) {
   //打印IO请求
-  cout << " offset: " << req->offset << " len: " << req->len
+  cout << "offset: " << req->offset << " length: " << req->len
        << " read: " << req->read << endl;
   struct io_uring_sqe *sqe = io_uring_get_sqe(ring);       // 得到 sq 中一个空闲的请求项（即 tail 处的 entry ，随后 tail += 1）
                                                            // 即先占着坑，先把它申请下来，随后再直接往队列里填请求的具体信息
@@ -66,14 +68,19 @@ void wait_completion(struct io_uring *ring) {
   // printf("cqe->user_data:%llu\n", cqe->user_data);
   //打印res
   cout << "res: " << cqe->res << endl;
+  cout << "user_data: " << cqe->user_data << endl << endl;
   io_uring_cqe_seen(ring, cqe);
 }
 
 int main() {
   struct io_uring ring;
 
+  /*
   io_uring_queue_init(RING_QD, &ring, RING_FLAG);     // RING_FLAG : IORING_SETUP_IOPOLL
                                                       // IORING_SETUP_IOPOLL 可以让内核采用 Polling 的模式收割 Block 层的请求
+  */
+
+  io_uring_queue_init(RING_QD, &ring, RING_FLAG_TEMP);    // 使用 RING_FLAG 标志无法接收到 user_data
 
   // Open your file here
   // int fd = open("/dev/nvme0n1", O_RDWR , 0644);
@@ -110,7 +117,7 @@ int main() {
     offset = offset % USER_SPACE_LEN;
     offset = offset / (4 * KB) * (4 * KB);
 
-    cout << "offset: " << offset << " length: " << length << endl;
+    // cout << "offset: " << offset << " length: " << length << endl;
 
     iovecs =(struct iovec*) calloc(RING_QD, sizeof(struct iovec));
 
