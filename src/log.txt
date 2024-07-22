@@ -1,400 +1,307 @@
-offset: 7965188096 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 8185028608 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1440829440 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1744830464 length: 4096 read: 0
-res: 4096
-user_data: 29
-
-offset: 7965319168 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 4740694016 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 8185159680 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 7965450240 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1744961536 length: 4096 read: 0
-res: 4096
-user_data: 29
-
-offset: 2059235328 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 3002568704 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 7965581312 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1745092608 length: 4096 read: 0
-res: 4096
-user_data: 29
-
-offset: 2059366400 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 3002699776 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1745223680 length: 4096 read: 0
-res: 4096
-user_data: 29
-
-offset: 1745354752 length: 4096 read: 0
-res: 4096
-user_data: 29
-
-offset: 2264039424 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 4142129152 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 380338176 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1745485824 length: 4096 read: 0
-res: 4096
-user_data: 29
-
-offset: 1745616896 length: 4096 read: 0
-res: 4096
-user_data: 29
-
-offset: 1573691392 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1745747968 length: 4096 read: 0
-res: 4096
-user_data: 29
-
-offset: 845373440 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 7411163136 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 845504512 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 4018466816 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 7128846336 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 7411294208 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 2065416192 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 10058113024 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 7411425280 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1745842176 length: 4096 read: 0
-res: 4096
-user_data: 29
-
-offset: 5210112000 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 767750144 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 7411556352 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1745973248 length: 4096 read: 0
-res: 4096
-user_data: 29
-
-offset: 10058244096 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1746104320 length: 4096 read: 0
-res: 4096
-user_data: 29
-
-offset: 10058375168 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1746235392 length: 4096 read: 0
-res: 4096
-user_data: 29
-
-offset: 972668928 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 7806242816 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1390964736 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 5817528320 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 8869076992 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 10058506240 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1120227328 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1391095808 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1744416768 length: 4096 read: 0
-res: 4096
-user_data: 29
-
-offset: 8290439168 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 8869208064 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1197740032 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 8869339136 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 10058637312 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1744547840 length: 4096 read: 0
-res: 4096
-user_data: 29
-
-offset: 4591792128 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 4361674752 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 8869470208 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 7745011712 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1197871104 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 8869601280 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1198002176 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 10466721792 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 8869732352 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1619595264 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 939089920 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 8869863424 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1198133248 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 10058768384 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 10466852864 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1746337792 length: 4096 read: 0
-res: 4096
-user_data: 29
-
-offset: 8869994496 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1198264320 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 10466983936 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1746468864 length: 4096 read: 0
-res: 4096
-user_data: 29
-
-offset: 10058899456 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 10059030528 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1746599936 length: 4096 read: 0
-res: 4096
-user_data: 29
-
-offset: 10059161600 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1746731008 length: 4096 read: 0
-res: 4096
-user_data: 29
-
-offset: 1746862080 length: 4096 read: 0
-res: 4096
-user_data: 29
-
-offset: 10059292672 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1746993152 length: 4096 read: 0
-res: 4096
-user_data: 29
-
-offset: 10059423744 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 10059554816 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1747124224 length: 4096 read: 0
-res: 4096
-user_data: 29
-
-offset: 10059685888 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1747255296 length: 4096 read: 0
-res: 4096
-user_data: 29
-
-offset: 10059816960 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1747386368 length: 4096 read: 0
-res: 4096
-user_data: 29
-
-offset: 2981502976 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 10059948032 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 10060079104 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1747427328 length: 4096 read: 0
-res: 4096
-user_data: 29
-
-offset: 1747558400 length: 4096 read: 0
-res: 4096
-user_data: 29
-
-offset: 10060410880 length: 4096 read: 1
-res: 4096
-user_data: 29
-
-offset: 1747689472 length: 4096 read: 0
-res: 4096
-user_data: 29
-
-offset: 3852611584 length: 4096 read: 1
-res: 4096
-user_data: 29
-
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2
+0
+0
+0
+0
+0
+0
+1
+1
+0
+2
+0
+0
+0
+4
+3
+1
+3
+3
+1
+5
+2
+3
+3
+6
+8
+6
+4
+9
+11
+6
+7
+13
+16
+10
+12
+19
+20
+13
+15
+17
+23
+24
+15
+25
+22
+33
+35
+32
+38
+35
+36
+34
+39
+44
+49
+55
+47
+49
+52
+60
+47
+49
+56
+62
+56
+71
+63
+60
+66
+62
+71
+67
+68
+67
+68
+68
+80
+61
+71
+73
+87
+66
+76
+88
+87
+81
+74
+85
+85
+88
+90
+84
+94
+85
+89
+86
+88
+82
+92
+72
+64
+83
+78
+80
+83
+77
+87
+68
+92
+72
+68
+63
+74
+60
+84
+58
+61
+65
+61
+69
+73
+55
+71
+62
+59
+62
+60
+46
+46
+64
+41
+45
+45
+48
+46
+44
+43
+37
+35
+34
+50
+33
+25
+33
+39
+27
+31
+30
+28
+30
+23
+33
+33
+21
+29
+24
+26
+14
+26
+40
+23
+20
+20
+28
+27
+16
+23
+23
+14
+23
+17
+18
+20
+23
+19
+18
+15
+14
+23
+17
+22
+27
+18
+23
+13
+19
+12
+16
+15
+14
+18
+20
+18
+18
+22
+14
+18
+18
+15
+17
+15
+17
+13
+15
+10
+22
+12
+17
+12
+16
+14
+14
+12
+15
+10
+13
+16
+17
+15
+12
+15
+11
+14
+14
+17
+8
+9
+13
+14
+15
+20
+12
+12
+12
+8
+6
+18
+11
+8
+9
+11
+11
+11
+8
+8
+13
+21
+10
+8
+15
+255411
+421099
+417945
+1 - 10 : 255411
+not in 1 - 10 : 421099
+total : 417945
